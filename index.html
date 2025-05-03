@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hand Cricket Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🏏 Hand Cricket Game</h1>
+
+    <div id="tossSection">
+      <p>Choose Heads or Tails:</p>
+      <button onclick="toss('Heads')">Heads</button>
+      <button onclick="toss('Tails')">Tails</button>
+    </div>
+
+    <div id="chooseBatBowl" style="display:none;">
+      <p>You won the toss! Choose to:</p>
+      <button onclick="setBatting(true)">Bat</button>
+      <button onclick="setBatting(false)">Bowl</button>
+    </div>
+
+    <p id="status" style="display:none;"></p>
+
+    <div class="buttons" style="display:none;">
+      <button onclick="playTurn(1)">1</button>
+      <button onclick="playTurn(2)">2</button>
+      <button onclick="playTurn(3)">3</button>
+      <button onclick="playTurn(4)">4</button>
+      <button onclick="playTurn(5)">5</button>
+      <button onclick="playTurn(6)">6</button>
+    </div>
+
+    <div class="scoreboard" style="display:none;">
+      <p>Your Score: <span id="playerScore">0</span></p>
+      <p>Computer Score: <span id="compScore">0</span></p>
+      <p>Turn: <span id="turnInfo">-</span></p>
+    </div>
+
+    <button id="restartBtn" onclick="restartGame()" style="display:none;">🔄 Restart</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hand Cricket Game.</p>
+        <p>Developed by <a id="footer-name" href="https://www.linkedin.com/in/sreeramsp/">Sreeram Palani </a></p>
+     </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

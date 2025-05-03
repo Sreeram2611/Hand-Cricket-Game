@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ac6ccf, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgb(182, 207, 211);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #2980b9;
+  }
+  
+  .scoreboard {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  #restartBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #restartBtn:hover {
+    background-color: #1e8449;
+  }
+  #tossSection p,
+#chooseBatBowl p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#tossSection button,
+#chooseBatBowl button {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#tossSection button:hover,
+#chooseBatBowl button:hover {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+  }
+  .container {
+    width: auto; 
+    padding: 20px; 
+    border: 2px solid #000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    flex-grow: 1; 
+    margin-bottom:auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer {
+    background-color: #2d0956;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 98%;
+    margin-bottom: auto;
+    max-height: fit-content;
+    position: relative;
+    bottom: auto;
+  }
+  /* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height:auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main Container */
+  .container {
+    width: 100%; /* Make container take full width */
+    max-width: 400px; /* Set maximum width to 400px */
+    padding: 20px; /* Padding inside the box */
+    border: 2px solid #000; /* Border around the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 90%; /* On smaller screens, make the container 90% width */
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .container {
+      width: 95%; /* On very small screens, make the container 95% width */
+      padding: 10px; /* Further reduce padding */
+    }
+  }
+  #footer-name {
+    text-decoration: none;
+    color: rgb(0, 255, 166);
+    font-size: 1.2rem;
+  }
